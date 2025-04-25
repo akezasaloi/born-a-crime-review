@@ -1,0 +1,271 @@
+@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
+
+body{
+    background-color:black;
+    overflow: hidden;
+}
+header{
+    top: 5%;
+    left:50%;
+    transform: translate(30%,50%);
+    h1{
+        color: white;
+        font-family: "American Typewriter";
+        font-weight:400;
+        font-size: 44px;
+        font-style: normal;
+
+    } 
+}
+.book-review{
+    display: flex;
+    height: 100vh;
+}
+.born-a-crime-book{
+    display: flex;
+    overflow: auto;
+    width: 100vw;
+    height: 58vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(30%,30%);
+    .about-born-a-crime{
+        width: auto;
+        text-align: center;
+        top: 50%;
+        left:10%;
+        transform: translate(1%,10%);
+        h2{
+            color: white;
+            font-family: "American Typewriter";
+            font-weight:300;
+            font-size: 24px;
+            font-style: normal;
+            line-height: 60px;
+
+        }
+        p{
+            color: white;
+            font-family: "American Typewriter";
+            font-weight: 64;
+            font-size: 15px;
+            line-height: 30px;
+        }
+    }
+}
+picture{
+    img{
+        width: auto;
+        top: 50%;
+        left:50%;
+        transform: translate(50%,20%);
+    }
+}
+.social-media-brands {
+    position: absolute;
+   padding-left: 93.5%;
+   top: 5%;
+   display: flex;
+   gap: 10%;
+   text-align: center;
+   
+    i{
+        
+        border-radius: 50%;
+        border: solid 1px #737373;
+        padding: 8%;
+        background-color: none;
+        color:#737373;
+        width: 2vw;
+        height: 2vh;
+       
+    }
+  
+}
+    .whatsapp{
+        position: absolute;
+   padding-left: 95%;
+   top: 85%;
+    i{
+        padding: 100%;
+        background-color: black;
+        color: white;
+        border: solid 0.5px;
+        border-radius: 50%;
+    }
+}
+.navigation-bar{
+    position:absolute;
+    top:0%;
+    /* left:0%; */
+    font-size: large;
+    
+    nav{
+        /* justify-content: justify; */
+        /* background-color: rgb(9,10,10); */
+        width: 45vw;
+        height: 4vh;
+        padding: 3%;
+        /* border-radius:7vw; */
+        /* align-items: normal; */
+    }
+    nav ul{
+        list-style: none;
+        display: flex;
+        /* justify-content: center; */
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        margin: 1vw;
+    }
+    nav ul li a:hover{
+        color: gray;
+    }
+    nav ul li a:focus{
+        border: 1px solid #d4d8d8;
+        background-color: #191a1a;
+        border-radius: 1vw;
+        padding: 15px;
+    }
+
+}
+
+
+@media only screen and (max-width:600px){
+    /* @import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter); */
+
+body{
+    background-color:black;
+    /* max-width: 600px; */
+    overflow-y: scroll;
+    /* transform: translate(0%,0%); */
+}
+header{
+    top: 5%;
+    left:50%;
+    transform: translate(1%,50%);
+    h1{
+        color: white;
+        font-family: "American Typewriter";
+        font-weight:400;
+        font-size: 44px;
+        font-style: normal;
+
+    } 
+}
+.book-review{
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.born-a-crime-book{
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    width: 100%;
+    height: 58vh;
+    margin-left: 0%;
+    .about-born-a-crime{
+        text-align: center;
+        margin-right: 50%;
+        h2{
+            color: white;
+            font-family: "American Typewriter";
+            font-weight:300;
+            font-size: 24px;
+            font-style: normal;
+            line-height: 60px;
+
+        }
+        p{
+            color: white;
+            font-family: "American Typewriter";
+            font-weight: 64;
+            font-size: 15px;
+            line-height: 30px;
+        }
+    }
+}
+picture{
+    top: 50%;
+    left:50%;
+    /* width: 20vw; */
+    /* height: 10vh; */
+    transform: translate(-30%,0%);
+    img{
+        max-width:300px;
+        top: 50%;
+        left:50%;
+        transform: translate(50%,20%);
+    }
+}
+.social-media-brands {
+    position: absolute;
+   padding-left: 93.5%;
+   top: 5%;
+   display: flex;
+   gap: 10%;
+   text-align: center;
+   
+    i{
+        
+        border-radius: 50%;
+        border: solid 1px #737373;
+        padding: 8%;
+        background-color: none;
+        color:#737373;
+        width: 2vw;
+        height: 2vh;
+       
+    }
+  
+}
+    .whatsapp{
+        position: absolute;
+   padding-left: 95%;
+   top: 85%;
+    i{
+        padding: 100%;
+        background-color: black;
+        color: white;
+        border: solid 0.5px;
+        border-radius: 50%;
+    }
+}
+.navigation-bar{
+    position:absolute;
+    top:0%;
+    /* left:0%; */
+    font-size: large;
+    
+    nav{
+        /* justify-content: justify; */
+        /* background-color: rgb(9,10,10); */
+        width: 45vw;
+        height: 4vh;
+        padding: 3%;
+        /* border-radius:7vw; */
+        /* align-items: normal; */
+    }
+    nav ul{
+        list-style: none;
+        display: flex;
+        /* justify-content: center; */
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        margin: 1vw;
+    }
+    nav ul li a:hover{
+        color: gray;
+    }
+    nav ul li a:focus{
+        border: 1px solid #d4d8d8;
+        background-color: #191a1a;
+        border-radius: 1vw;
+        padding: 15px;
+    }
+
+}
+}
