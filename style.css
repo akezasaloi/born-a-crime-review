@@ -26,11 +26,11 @@ header{
     .about-born-a-crime{
         overflow: auto;
         width: 98vw;
-        height: 28vw;
+        height: 22vw;
         /* text-align: center; */
         top: 50%;
         left:10%;
-        transform: translate(20%,30%);
+        transform: translate(20%,50%);
         h2{
             color: black;
             font-family: "American Typewriter";
@@ -88,8 +88,8 @@ picture{
     }
 
 }
-footer{
-    text-align: center;
+#reviewer{
+    color:rgb(53, 51, 51);
 }
 @media only screen and (min-width:320px) and (max-width:480px){
 body{
