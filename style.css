@@ -2,7 +2,7 @@
 
 body{
     background-color:white;
-    overflow-x: hidden;
+    overflow: hidden;
     font-family: "American Typewriter";
 }
 header{
@@ -181,29 +181,25 @@ picture{
     }
     }
 
-@media only screen and (min-width:640px)and (max-width:1024px){
+@media only screen and (min-width:640px)and (max-width:1000px){
     body{
         margin: 0;
-        overflow-x: hidden;
-        overflow-y: scroll;
+        overflow: hidden;
+        /* overflow-y: scroll; */
     }
     header{
       
-        transform: translate(19%,300%);
+        transform: translate(19%,10vh);
     }
     .book-review{
-        width: 100vw;
-        transform: translate(-8%,10%);
         margin: 0;
         overflow: hidden;
-        height: 90vh;
-        gap: 6%;
-       
+        gap: 8%; 
     }
         .about-born-a-crime{
-            margin-bottom: 0;
+            margin-top: 10vh;
             width: 50vw;
-            height: 30vh;
+            height: 25vh;
             h2{
                 text-align: unset;
                 font-size: 20px;
@@ -218,13 +214,13 @@ picture{
     
     picture{
         img{
-            max-width:200px;
-            transform: translate(50%,35%);
+            max-width: 200px;
+            transform: translate(50%,60%);
         }
     }
     }
 
-    @media only screen and (min-width:1024px)and (max-width:1650px){
+    @media only screen and (min-width:1000px)and (max-width:1650px){
         body{
             margin: 0;
             overflow-x: hidden;
@@ -232,19 +228,61 @@ picture{
         }
         header{
           
-            transform: translate(19%,300%);
+            transform: translate(39%,15vh);
         }
         .book-review{
             width: 100vw;
-            transform: translate(-8%,8%);
             margin: 0;
             overflow: hidden;
             height: 90vh;
             gap: 6%;
+            
            
         }
             .about-born-a-crime{
-                margin-bottom: 0;
+                transform: translate(18%,50%);
+                width: 50vw;
+                height: 35vh;
+                h2{
+                    font-size: 20px;
+                    line-height: 20px;
+                }
+                p{
+                    font-weight: 64;
+                    font-size: 15px;
+                    line-height: 20px;
+                }
+            }
+        
+        picture{
+            img{
+                max-width:300px;
+                transform: translate(40%,40%);
+            }
+        }
+        }
+
+    @media only screen and (max-width:2048px){
+        body{
+            margin: 0;
+            overflow-x: hidden;
+            overflow-y: scroll;
+        }
+        header{
+          
+            transform: translate(30%,6vh);
+        }
+        .book-review{
+            width: 100vw;
+           
+            margin: 0;
+            overflow: hidden;
+            height: 90vh;
+            
+           
+        }
+            .about-born-a-crime{
+                transform: translate(20vh,15vh);
                 width: 50vw;
                 height: 30vh;
                 h2{
@@ -260,8 +298,8 @@ picture{
         
         picture{
             img{
-                max-width:200px;
-                transform: translate(50%,50%);
+                max-width:400px;
+                transform: translate(30%,20%);
             }
         }
         }
