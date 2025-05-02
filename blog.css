@@ -1,0 +1,286 @@
+body{
+    background-image:linear-gradient(rgba(10, 3, 46, 0.728),rgba(10, 3, 46, 0.728)) ,url(blog-images/Library.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0%;
+    height: 200vh;
+}
+header{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color:rgb(23, 23, 48);
+
+    nav{
+        margin-left:80% ;
+        width: 100vw;
+    }
+nav ul a{
+    
+    text-decoration: none;
+    color: white;
+    margin:0 1%;
+   
+}
+}
+.blog{
+
+    position: relative;
+  
+}
+.blog-introduction-part{
+    display: flex;
+    justify-content: space-between;
+}
+.welcome-to-my-blog{
+    margin: 5vh 50vh;
+    h1{
+        text-align: center;
+        color: aliceblue;
+        font-size: 5vh;
+
+    }
+    nav{
+        text-align: center;
+    }
+    nav ul a{
+        margin:0 2%;
+    }
+}
+.overview{
+    margin: 5vh;
+    display: flex;
+    background-color: white;
+    gap: 1vw;
+    width: 40vw;
+    height: 40vh;
+    color: black;
+    box-shadow : 0px 1px 4px 4px rgb(13, 13, 36);
+    img{
+        margin: 2vh;
+        width: 13vw;
+        height: 35vh;
+      
+    }
+}
+.about-the-author{
+    margin-top: -30vh;
+    margin-left: 110vh;
+    display: flex;
+    background-color: white;
+    gap: 1vw;
+    width: 40vw;
+    height: 40vh;
+    color: black;
+    box-shadow : 0px 1px 4px 4px rgb(13, 13, 36);
+    img{
+        margin: 3vh;
+        width: 19vw;
+        height: 35vh;
+        border-radius: 0vh;
+    }
+}
+.overview-content
+{
+    width: 25vw;
+    margin: 4vh;
+h2{
+    font-size: 4vh;
+}
+p{
+    font-size: 2vh;
+}
+}
+.about-the-author-content
+{
+    width: 35vw;
+    margin: 4vh;
+h2{
+    font-size: 3vh;
+}
+p{
+    font-size: 2vh;
+}
+}
+
+.about-born-a-crime{
+    margin-top: 18vh;
+    margin-left: 60vh;
+    width: 30vw;
+    padding: 10vh;
+    background-color: white;
+    box-shadow : 0px 1px 4px 4px rgb(13, 13, 36);
+    color: black;
+    h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    h2{
+        text-align:justify;
+        font-size: 25px;
+        line-height: 35px;
+        
+    }
+    p{
+        font-weight: 64;
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height:8vh;
+    background-color:rgb(23, 23, 48);
+p{
+    margin-top:2%;
+    text-align: center;
+    color: #fff;
+}
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    body{
+        /* background-image:linear-gradient(rgba(10, 3, 46, 0.728),rgba(10, 3, 46, 0.728)) ,url(blog-images/Library.jpg); */
+        /* background-repeat: no-repeat; */
+        background-size:200vh;
+        margin: 0%;
+        /* height: 200vh; */
+    }
+    header{
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        background-color:rgb(23, 23, 48);
+    
+        nav{
+            margin-left:80% ;
+            width: 100vw;
+        }
+    nav ul a{
+        
+        text-decoration: none;
+        color: white;
+        margin:0 1%;
+       
+    }
+    }
+    .blog{
+    
+        position: relative;
+      
+    }
+    .blog-introduction-part{
+        display: flex;
+        justify-content: space-between;
+    }
+    .welcome-to-my-blog{
+        margin: 5vh 50vh;
+        h1{
+            text-align: center;
+            color: aliceblue;
+            font-size: 5vh;
+    
+        }
+        nav{
+            text-align: center;
+        }
+        nav ul a{
+            margin:0 2%;
+        }
+    }
+    .overview{
+        margin: 5vh;
+        display: flex;
+        background-color: white;
+        gap: 1vw;
+        width: 40vw;
+        height: 40vh;
+        color: black;
+        box-shadow : 0px 1px 4px 4px rgb(13, 13, 36);
+        img{
+            margin: 2vh;
+            width: 13vw;
+            height: 35vh;
+          
+        }
+    }
+    .about-the-author{
+        margin-top: -30vh;
+        margin-left: 110vh;
+        display: flex;
+        background-color: white;
+        gap: 1vw;
+        width: 40vw;
+        height: 40vh;
+        color: black;
+        box-shadow : 0px 1px 4px 4px rgb(13, 13, 36);
+        img{
+            margin: 3vh;
+            width: 19vw;
+            height: 35vh;
+            border-radius: 0vh;
+        }
+    }
+    .overview-content
+    {
+        width: 25vw;
+        margin: 4vh;
+    h2{
+        font-size: 4vh;
+    }
+    p{
+        font-size: 2vh;
+    }
+    }
+    .about-the-author-content
+    {
+        width: 35vw;
+        margin: 4vh;
+    h2{
+        font-size: 3vh;
+    }
+    p{
+        font-size: 2vh;
+    }
+    }
+    
+    .about-born-a-crime{
+        margin-top: 18vh;
+        margin-left: 60vh;
+        width: 30vw;
+        padding: 10vh;
+        background-color: white;
+        box-shadow : 0px 1px 4px 4px rgb(13, 13, 36);
+        color: black;
+        h1{
+            text-align: center;
+            font-size: 30px;
+        }
+        h2{
+            text-align:justify;
+            font-size: 25px;
+            line-height: 35px;
+            
+        }
+        p{
+            font-weight: 64;
+            font-size: 20px;
+            line-height: 20px;
+        }
+    }
+    footer{
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        height:8vh;
+        background-color:rgb(23, 23, 48);
+    p{
+        margin-top:2%;
+        text-align: center;
+        color: #fff;
+    }
+    }
+    
+}
