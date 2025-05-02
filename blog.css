@@ -1,9 +1,11 @@
+@import url(https://db.onlinewebfonts.com/c/0a086e32e41c5e5960b26626757f07f3?family=Apercu+Regular);
 body{
     background-image:linear-gradient(rgba(10, 3, 46, 0.728),rgba(10, 3, 46, 0.728)) ,url(blog-images/Library.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     margin: 0%;
     height: 200vh;
+    font-family: "Apercu Regular";
 }
 header{
     position: fixed;
@@ -28,13 +30,10 @@ nav ul a{
     position: relative;
   
 }
-.blog-introduction-part{
-    display: flex;
-    justify-content: space-between;
-}
+
 .welcome-to-my-blog{
     margin-top: 10vh;
-    margin-left: 70vh;
+    margin-left: 10vh;
     h1{
         text-align: center;
         color: aliceblue;
@@ -139,6 +138,7 @@ p{
         /* background-image:linear-gradient(rgba(10, 3, 46, 0.728),rgba(10, 3, 46, 0.728)) ,url(blog-images/Library.jpg); */
         /* background-repeat: no-repeat; */
         background-size:200vh;
+        overflow-x: hidden;
         margin: 0%;
         /* height: 200vh; */
     }
@@ -149,7 +149,7 @@ p{
         background-color:rgb(23, 23, 48);
     
         nav{
-            margin-left:80% ;
+            margin-left:25% ;
             width: 100vw;
         }
     nav ul a{
@@ -166,15 +166,15 @@ p{
       
     }
     .blog-introduction-part{
-        display: flex;
-        justify-content: space-between;
+        /* display: flex; */
+        /* justify-content: space-between; */
     }
     .welcome-to-my-blog{
-        margin: 5vh 50vh;
+        margin: 5vh 5vh;
         h1{
             text-align: center;
             color: aliceblue;
-            font-size: 5vh;
+            font-size: 3vh;
     
         }
         nav{
@@ -185,18 +185,18 @@ p{
         }
     }
     .overview{
-        margin: 5vh;
+        margin: 2vh;
         display: flex;
         background-color: white;
         gap: 1vw;
-        width: 40vw;
-        height: 40vh;
+        width: 90vw;
+        height: 34vh;
         color: black;
         box-shadow : 0px 1px 4px 4px rgb(13, 13, 36);
         img{
-            margin: 2vh;
-            width: 13vw;
-            height: 35vh;
+            
+            width: 35vw;
+            height: 20vh;
           
         }
     }
@@ -219,10 +219,11 @@ p{
     }
     .overview-content
     {
-        width: 25vw;
-        margin: 4vh;
+        overflow:auto;
+        width: 35vw;
+        margin: 1vh;
     h2{
-        font-size: 4vh;
+        font-size: 2vh;
     }
     p{
         font-size: 2vh;
