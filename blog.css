@@ -33,18 +33,12 @@ nav ul a{
     justify-content: space-between;
 }
 .welcome-to-my-blog{
-    margin: 5vh 50vh;
+    margin-top: 10vh;
+    margin-left: 70vh;
     h1{
         text-align: center;
         color: aliceblue;
         font-size: 5vh;
-
-    }
-    nav{
-        text-align: center;
-    }
-    nav ul a{
-        margin:0 2%;
     }
 }
 .overview{
