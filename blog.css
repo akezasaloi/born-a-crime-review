@@ -11,7 +11,7 @@ header{
     position: fixed;
     z-index: 1;
     top: 0;
-    background-color:rgb(23, 23, 48);
+    background-color:white;
 
     nav{
         margin-left:80% ;
@@ -20,7 +20,7 @@ header{
 nav ul a{
     
     text-decoration: none;
-    color: white;
+    color:rgb(23, 23, 48);
     margin:0 1%;
    
 }
@@ -135,28 +135,19 @@ p{
 
 @media only screen and (min-width:320px) and (max-width:480px){
     body{
-        /* background-image:linear-gradient(rgba(10, 3, 46, 0.728),rgba(10, 3, 46, 0.728)) ,url(blog-images/Library.jpg); */
-        /* background-repeat: no-repeat; */
         background-size:200vh;
-        overflow-x: hidden;
+        
         margin: 0%;
-        /* height: 200vh; */
+        
     }
     header{
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        background-color:rgb(23, 23, 48);
-    
         nav{
             margin-left:25% ;
             width: 100vw;
         }
     nav ul a{
         
-        text-decoration: none;
-        color: white;
-        margin:0 1%;
+      font-size: 1.8vh;
        
     }
     }
@@ -165,12 +156,9 @@ p{
         position: relative;
       
     }
-    .blog-introduction-part{
-        /* display: flex; */
-        /* justify-content: space-between; */
-    }
+    
     .welcome-to-my-blog{
-        margin: 5vh 5vh;
+        margin: 8vh 5vh;
         h1{
             text-align: center;
             color: aliceblue;
@@ -188,42 +176,50 @@ p{
         margin: 2vh;
         display: flex;
         background-color: white;
-        gap: 1vw;
+        width: 90vw;
+        height: 38vh;
+        color: black;
+        box-shadow : 0px 1px 4px 4px rgb(13, 13, 36);
+        img{
+            margin: 2 50vh;
+            width: 20vw;
+            height: 12vh;
+          
+        }
+        p{
+            overflow: auto;
+            height:20vh;
+            width:80vw;
+
+        }
+    }
+    .about-the-author{
+        margin: 2vh;
+        display: flex;
+        background-color: white;
         width: 90vw;
         height: 34vh;
         color: black;
         box-shadow : 0px 1px 4px 4px rgb(13, 13, 36);
         img{
-            
-            width: 35vw;
-            height: 20vh;
+            margin: 2 50vh;
+            width: 30vw;
+            height: 10vh;
           
         }
-    }
-    .about-the-author{
-        margin-top: -30vh;
-        margin-left: 110vh;
-        display: flex;
-        background-color: white;
-        gap: 1vw;
-        width: 40vw;
-        height: 40vh;
-        color: black;
-        box-shadow : 0px 1px 4px 4px rgb(13, 13, 36);
-        img{
-            margin: 3vh;
-            width: 19vw;
-            height: 35vh;
-            border-radius: 0vh;
+        p{
+            overflow: auto;
+            height:15vh;
+            width:80vw;
+
         }
     }
     .overview-content
     {
-        overflow:auto;
         width: 35vw;
-        margin: 1vh;
+        margin: 2vh;
     h2{
-        font-size: 2vh;
+        font-size: 3vh;
     }
     p{
         font-size: 2vh;
@@ -232,7 +228,7 @@ p{
     .about-the-author-content
     {
         width: 35vw;
-        margin: 4vh;
+        margin: 2vh;
     h2{
         font-size: 3vh;
     }
@@ -243,39 +239,159 @@ p{
     
     .about-born-a-crime{
         margin-top: 18vh;
-        margin-left: 60vh;
-        width: 30vw;
-        padding: 10vh;
+        margin-left: 2vh;
+        width: 35vw;
         background-color: white;
         box-shadow : 0px 1px 4px 4px rgb(13, 13, 36);
         color: black;
+     
+    }
+    .about-born-a-crime-content{
+        overflow: auto;
+        margin-left: -8vh;
+        width: 28vh;
+        height: 75vh;
+    h2{
+        font-size: 2vh;
+    }
+    p{
+        font-size: 2vh;
+    }
         h1{
             text-align: center;
-            font-size: 30px;
+            font-size: 4vh;
         }
-        h2{
-            text-align:justify;
-            font-size: 25px;
-            line-height: 35px;
-            
+       
+    }
+}
+  @media only screen and (min-width:480px)and (max-width:640px){
+    body{
+        background-size:200vh;
+        
+        margin: 0%;
+        
+    }
+    header{
+        nav{
+            margin-left:25% ;
+            width: 100vw;
         }
-        p{
-            font-weight: 64;
-            font-size: 20px;
-            line-height: 20px;
+    nav ul a{
+        
+      font-size: 1.8vh;
+       
+    }
+    }
+    .blog{
+    
+        position: relative;
+      
+    }
+    
+    .welcome-to-my-blog{
+        margin: 8vh 5vh;
+        h1{
+            text-align: center;
+            color: aliceblue;
+            font-size: 3vh;
+    
+        }
+        nav{
+            text-align: center;
+        }
+        nav ul a{
+            margin:0 2%;
         }
     }
-    footer{
-        position: fixed;
-        bottom: 0;
-        width: 100vw;
-        height:8vh;
-        background-color:rgb(23, 23, 48);
+    .overview{
+        margin: 2vh;
+        display: flex;
+        background-color: white;
+        width: 90vw;
+        height: 38vh;
+        color: black;
+        box-shadow : 0px 1px 4px 4px rgb(13, 13, 36);
+        img{
+            margin: 2 50vh;
+            width: 20vw;
+            height: 12vh;
+          
+        }
+        p{
+            overflow: auto;
+            height:20vh;
+            width:80vw;
+
+        }
+    }
+    .about-the-author{
+        margin: 2vh;
+        display: flex;
+        background-color: white;
+        width: 90vw;
+        height: 34vh;
+        color: black;
+        box-shadow : 0px 1px 4px 4px rgb(13, 13, 36);
+        img{
+            margin: 2 50vh;
+            width: 30vw;
+            height: 10vh;
+          
+        }
+        p{
+            overflow: auto;
+            height:15vh;
+            width:80vw;
+
+        }
+    }
+    .overview-content
+    {
+        width: 35vw;
+        margin: 2vh;
+    h2{
+        font-size: 3vh;
+    }
     p{
-        margin-top:2%;
-        text-align: center;
-        color: #fff;
+        font-size: 2vh;
+    }
+    }
+    .about-the-author-content
+    {
+        width: 35vw;
+        margin: 2vh;
+    h2{
+        font-size: 3vh;
+    }
+    p{
+        font-size: 2vh;
     }
     }
     
-}
+    .about-born-a-crime{
+        margin-top: 18vh;
+        margin-left: 2vh;
+        width: 35vw;
+        background-color: white;
+        box-shadow : 0px 1px 4px 4px rgb(13, 13, 36);
+        color: black;
+     
+    }
+    .about-born-a-crime-content{
+        overflow: auto;
+        margin-left: -8vh;
+        width: 28vh;
+        height: 75vh;
+    h2{
+        font-size: 2vh;
+    }
+    p{
+        font-size: 2vh;
+    }
+        h1{
+            text-align: center;
+            font-size: 4vh;
+        }
+       
+    }
+  }
